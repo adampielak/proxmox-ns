@@ -9,7 +9,7 @@ VM setup in Proxmox:
 run the following
 
 ``` shell
-bash <(curl -s https://raw.githubusercontent.com/shepner/proxmox-plex/master/create_vm.sh)
+bash <(curl -s https://raw.githubusercontent.com/shepner/proxmox-ns/master/setup/create-vm.sh)
 ```
 
 install Ubuntu 20.04 the usual way.
