@@ -2,7 +2,7 @@
 
 # simple script for updating from github
 cat > ~/update-scripts.sh << EOF
-cd ~/docker-ubuntu
+cd ~/proxmox-ns
 git pull
 EOF
 chmod 754 ~/update-scripts.sh
