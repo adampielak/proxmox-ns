@@ -22,17 +22,6 @@ qm create $VMID \
   --onboot 1 \
   --numa 0
 
-# cloud-init
-
-#qm set $VMID --sshkey /etc/pve/pub_keys/pub_key.pub
-qm set $VMID --ipconfig0 ip=10.0.0.5/24,gw=10.0.0.1
-#qm set $VMID --nameserver 
-#qm set $VMID --searchdomain asyla.org
-#qm set $VMID --cicustom
-#qm set $VMID --ciuser
-#qm set $VMID --sshkeys
-
-
 # remove the image
 #rm /tmp/focal-server-cloudimg-amd64.img
 
@@ -45,4 +34,3 @@ qemu-img convert -O qcow2 -c $DISKFILE.orig $DISKFILE
 rm $DISKFILE.orig
 
 qm start $VMID
-
