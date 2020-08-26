@@ -51,9 +51,9 @@ ssh $DHOST "chmod -R 700 ~/.ssh"
 ## Configure the system
 
 ``` shell
-git clone https://github.com/shepner/docker-ubuntu.git
+git clone https://github.com/shepner/proxmox-ns.git
 
-cd ~/docker-ubuntu/setup
+cd ~/proxmox-ns/setup
 chmod 774 *.sh
 
 ./userConfig.sh
