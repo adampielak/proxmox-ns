@@ -26,7 +26,7 @@ First set the permissions of the home dir:
 sudo chown -R 1001 /home/`id -un`
 ```
 
-Then change the UID accodingly in the passwd files:
+Then change the UID accordingly in the passwd files:
 
 ``` shell
 sudo vipw
