@@ -18,15 +18,6 @@ provide a static IP address
 
 install OpenSSH
 
-
-
-
-install Ubuntu 20.04 the usual way.
-
-provide a static IP address
-
-install OpenSSH
-
 ## Fix the UID
 
 First set the permissions of the home dir:
