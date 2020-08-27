@@ -7,7 +7,7 @@
 
 NAME=dnsmasq
 IMAGE=portainer/portainer
-BASEPATH=/mnt/nas/docker/$NAME
+BASEPATH=/mnt/nas/data2/docker/$NAME
 
 sudo mkdir -p $BASEPATH/config
 #sudo wget -O $BASEPATH/config/dnsmasq_dhcp.conf https://raw.githubusercontent.com/shepner/Docker-DNSmasq/master/dnsmasq.conf
