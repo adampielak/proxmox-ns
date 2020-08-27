@@ -51,13 +51,10 @@ ssh $DHOST "chmod -R 700 ~/.ssh"
 ## Configure the system
 
 ``` shell
-git clone https://github.com/shepner/proxmox-ns.git
+bash <(curl -s https://raw.githubusercontent.com/shepner/proxmox-ns/master/update-scripts.sh)
 
-cd ~/proxmox-ns/setup
-chmod 774 *.sh
-
-./userConfig.sh
-./systemConfig.sh
-./nfs.sh
-./docker.sh
+~/scripts/setup/userConfig.sh
+~/scripts/setup/systemConfig.sh
+~/scripts/setup/nfs.sh
+~/scripts/setup/docker.sh
 ```
