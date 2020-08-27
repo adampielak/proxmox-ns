@@ -6,7 +6,7 @@
 # WARNING: This runs with privledged rights
 
 NAME=dnsmasq
-IMAGE=portainer/portainer
+IMAGE=shepner/dnsmasq
 BASEPATH=/mnt/nas/data2/docker/$NAME
 
 sudo mkdir -p $BASEPATH/config
