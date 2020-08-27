@@ -8,6 +8,6 @@ fi
 
 git clone https://github.com/$REPO.git ~/scripts
 
-chmod -R 754 ~/scripts/*.sh
+find ~/scripts -name "*.sh" -exec chmod 744 {} \;
 
 mv ~/scripts/*.sh ~
